@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-harvmac
 Version:	20081220
-Release:	5
+Release:	6
 Summary:	Macros for scientific articles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/harvmac
