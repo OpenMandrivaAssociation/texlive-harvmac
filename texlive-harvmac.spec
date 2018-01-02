@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/plain/contrib/harvmac
-# catalog-date 2008-12-20 16:08:04 +0100
-# catalog-license other-free
-# catalog-version undef
 Name:		texlive-harvmac
 Version:	20170414
 Release:	1
@@ -31,9 +25,8 @@ Known as 'Harvard macros', since written at that University.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/plain/harvmac/harvmac.tex
-%doc %{_texmfdistdir}/doc/plain/harvmac/README
-%doc %{_texmfdistdir}/doc/plain/harvmac/harvsamp.tex
+%{_texmfdistdir}/tex/plain/harvmac
+%doc %{_texmfdistdir}/doc/plain/harvmac
 
 #-----------------------------------------------------------------------
 %prep
@@ -44,17 +37,3 @@ Known as 'Harvard macros', since written at that University.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081220-2
-+ Revision: 752523
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081220-1
-+ Revision: 718604
-- texlive-harvmac
-- texlive-harvmac
-- texlive-harvmac
-- texlive-harvmac
-
